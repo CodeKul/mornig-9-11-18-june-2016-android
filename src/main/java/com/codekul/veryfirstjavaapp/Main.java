@@ -5,7 +5,10 @@
  */
 package com.codekul.veryfirstjavaapp;
 
-import com.codekul.veryfirstjavaapp.exceptionhandling.Starter;
+import com.codekul.veryfirstjavaapp.filehandling.Starter;
+
+
+
 
 
 
@@ -20,6 +23,7 @@ public class Main {
        
         Starter starter = 
                 new Starter();
-        starter.howShouldICreateCustomException();
+        starter.howShouldICreateTheFile();
+        
    }
 }
