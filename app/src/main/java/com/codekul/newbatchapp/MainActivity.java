@@ -19,6 +19,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         //child = parent -> compile time error
 
+       // px = dp * dpi/160; sp
+
         final EditText edtUserName =
                 (EditText) findViewById(R.id.edtUserName);
 
